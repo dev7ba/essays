@@ -39,7 +39,7 @@ El establecimento de estas jerarquías es lo que ha causado que el homo sapiens 
 
 Después de advertirnos de lo molesto que es hablar sobre el asunto de como organizar los recursos en una sociedad (politica), recordarnos que la naturaleza no tiene piedad, y que los diferentes sistemas morales que sostengamos los humanos son irrelevantes para comprender la naturaleza, sin importar lo repugnante que puede llegar a ser (ejemplo del león matando a cachorros ajenos). El autor establece que la única heurística, o jerarqía usada por la naturaleza para hacer sobrevivir a una especie es es alimentar y reproducir a los mas aptos (fuertes, inteligents) del grupo . Hacer lo contrario lleva a la domesticación de la especie y provoca que el C_A baje y el BCR_A suba.
 
-La domesticación es relacion de dominación entre dos especies de forma depredadora. Pero acontece que el ser humano esta domesticándose a sí mismo. Las sociedades que están interesadas en la supervivencia y prosperidad deben ser capaces e inclinadas a la agresión fisica frente a posibles attacantes. Nuestra capacidad de progresar depende de poder establecer una buenas jerarqías que determinen los derechos de propiedad. Debemos desconfiar de aquellos que promueven la docilidad y condenan el poder físico. 
+La domesticación es relacion de dominación entre dos especies de forma depredadora. Pero acontece que el ser humano esta domesticándose a sí mismo. "Las sociedades que estén interesadas en la supervivencia y prosperidad no deben dejar de lado su capacidad y inclinación hacia el uso del poder físico frente a posibles atacantes".p107. Nuestra capacidad de progresar depende de poder establecer unas buenas jerarqías que determinen los derechos de propiedad. "Debemos desconfiar de aquellos que promueven la docilidad y condenan el poder físico para resolver disputas" p108. Ésto será usado mas adelante por el autor para hacer una critica al Proof of stake frente al Proof of work y para explicar las implicaciones socio-tecnológicas de Bitcoin.
 
 Nótese la preocupación del autor por evitar la palabra violencia, y sustituirla por proyección de poder.
 
@@ -64,7 +64,7 @@ El sistema de creencias compartido nos permite cooperar por encima del Número d
 
 Curiosamente para el autor el dinero no es mas que un sistema de creencias que permite la cooperación. Y señala que cuando el dinero se viene abajo la cooperación también, junto con las sociedades. La manipulación del dinero es una forma de agresión psicológica pasivo-agresiva a la sociedad. Los dineros mas exitosos han sido los que han sobrevivido frente a este tipo sistémico de abuso. (El oro).
 
-Los sapiens podemos ser domesticados mediante las historias que creen. Por lo que la prosperidad de los sapiens depende de las realidad (historias) que elegimos creer. Nuestro éxitos como especie están intimamente entrelazadas con las historias en las que creemos.
+Los sapiens podemos ser domesticados mediante las historias que creen. Por lo que la prosperidad de los sapiens depende de las realidad (historias) que elegimos creer. Nuestro éxitos como especie están intimamente entrelazadas con los relatos en los que creemos.
 
 Para evitar confrontaciones fisicas y/o justificarlas, los humanos, como los ciervos, jugamos a hacer creer al otro algo, que establezca una manera de resolver una disputa y establecer unos derechos de propiedad. Este "jugar a hacer creer al otro algo" se llama poder imaginario o abstracto en vez de poder real. El beneficio del poder abstracto es evitar desperdicio de vidas y de energia. (proof of stake).
 
@@ -80,9 +80,9 @@ El poder imaginario y el real son muy diferentes. El poder imaginario produce di
 
 El poder abstracto es no-inclusivo, limitado y sistematicamente endogeno. El poder real es inclusivo, ilimitado, y ¿Exogeno?
 
-El poder real puede a la vez legitimar o deslegitimar al abstracto. En caso de legitimar, se comporta como refuerzo para hipostatizar o hacer confundir el poder imaginario con el real, por eso la clase gobernante se aĺía con la guerrera.
+El poder real puede a la vez legitimar o deslegitimar al abstracto. En caso de legitimar, se comporta como refuerzo para hipostasiar o hacer confundir el poder imaginario con el real, por eso la clase gobernante se aĺía con la guerrera.
 
-¿Como se crea el poder abstracto? En 4 pasos: Usar tu capacidad de contar historias para convencer a la población o sociedad de que hay que llegar a un estado deseable en algo. Luego describir como hacerlo, luego designarte como lider que generosamente lleva a la sociedad a el estado deseado. Esto es subversivo ya que distraes a la gente del hecho de que te estas dando poder de denegación de servicio, permitiendo o prohibiendo el estado a la gente. Repetir.
+¿Como se crea el poder abstracto? En 4 pasos: Usar tu capacidad de contar historias para convencer a la población o sociedad de que hay que llegar a un estado deseable en algo. Luego describir como hacerlo, luego designarte como lider que generosamente lleva a la sociedad al estado deseado, finalmente incrementa a la adopción de tu sistema de creencias lo mas posible. Esto es subversivo ya que se distrae a la gente del hecho de que te estas dando poder de denegación de servicio, permitiendo o prohibiendo el estado deseado a la gente. Repetir.
 
 Esta habilidad de contar historias se translada directamente en poder abstracto, ya sean leyes o código fuente. La gente que escribe las leyes han tenido clara tendencia a volverse los gobernantes.
 
@@ -114,7 +114,7 @@ La Guerra da a la gente una manera de resolver disputas, establecer control sobr
 
 La gente no necesita un ejercito para consolidad el poder abstracto y usarlo contra la población, solo necesitan tener un sistema de creencias que puedan explotar. (ejemplo de colón frente a los Jamaicanos). Las milicias no han sido extrictamente necesarias para la creación, consolidación y expansión del poder abstracto. Al contrario, los ejercitos son necesarios en limitadas ocasiones donde la gente rechaza creer en el poder abstracto de alguien que tiene coraje, es agresivo y resistente como para no ser explotado por un sistema de creencias.
 
-La guerra deja a la probabilidad y la fisica decidir el orden de picoteo.
+La guerra deja a la probabilidad y la fisica decidir la jerarquía de dominación (orden de picoteo)
 
 Despues de varios intentos, nadie en la historia ha sido posible para establecer una única clase dirigente debido a las restricciones físicas que impone la Guerra. Esto parece contraintuitivo porque mucha gente (especialmente para gente que no estudia o participa en la guerra) ha acusado la la guerra como poder de consolidación, y no como descentralización. 
 
