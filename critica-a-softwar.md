@@ -157,7 +157,7 @@ Formas de contrarestar tanto a los proyectores de poder abstracto y real:
 Convirtiendo el USD de dinero basado en oro a bits de información, USA convirtió su sistema monetario en una creencia abstracta sin restricciones físicas que lo aseguraban frente a la explotación de jerarcas que controlan la transferencia y la custodia de esos bits. Estos jerarcas sólamente tienen poder abstracto para proteger al dólar, ya el el poder físico es irrelevante asegurando el dolar y que no existe físicamente.
 
 
-Los estado nación son como organismos multicelulares sin testear viviendo en libertad. Tienen claros riesgos sistémicos. Los ciudadanos de un estado nación deben adoptar jerarquías de poder abstracto masivas para sobrevivir frente a sus vecinos que también las usan, pero como resultado de adoptar esta jerarquia nos atrapamos a nosotros mismos. Esto es debido a que las jerarquías de poder abstracto escalan rápidamente porque esencialmente no tienen coste marginal. Son una contramedida frente a las naciones que intentan escalar su poder de proyección fisico. Esto obliga a los sapiens a adherirse una jerarquía de poder abstracto o luchar en solitario.
+Los estados nación son como organismos multicelulares sin testear viviendo en libertad. Tienen claros riesgos sistémicos. Los ciudadanos de un estado nación deben adoptar jerarquías de poder abstracto masivas para sobrevivir frente a sus vecinos que también las usan, pero como resultado de adoptar esta jerarquia nos atrapamos a nosotros mismos. Esto es debido a que las jerarquías de poder abstracto escalan rápidamente porque esencialmente no tienen coste marginal. Son una contramedida frente a las naciones que intentan escalar su poder de proyección fisico. Esto obliga a los sapiens a adherirse una jerarquía de poder abstracto o luchar en solitario.
 
 El poder abstracto escala mejor que el físico, permite a los humanos coordinar sus esfuerzos mejor, y mas barato, adoptarlo es un imperativo existencial -> El poder abstracto tiene mas poder asimétrico y control de la autoridad frente a recursos -> Poder Abstracto Disfuncional son los principales motivos de la guerra-> la causa raiz de la guerra es el efecto emergente de la guerra, la guerra se crea a sí misma.
 
@@ -188,7 +188,7 @@ Capítulo 5
 
 ###Resumen
 
-En el siglo 21 gran parte de las jerarquías de poder abstractas están codificadas en código, no en leyes. Google, Facebook, Twitter y Amazon tenen mas clientes que ciudadanos los gobiernos. Cada persona o institución necesita su permiso tácito para enviar, recibir o guardar información, son, operativamente, una jerarquías abstracta de facto, Y ya hemos visto que las jerarquías abstactas se vuelven disfuncionales y tarde o temprano llevan a la guerra.
+En el siglo 21 gran parte de las jerarquías de poder abstractas están codificadas en código, no en leyes. Google, Facebook, Twitter y Amazon tenen mas clientes que ciudadanos los gobiernos. Cada persona o institución necesita su permiso tácito para enviar, recibir o guardar información, son, operativamente, una jerarquía abstracta de facto, Y ya hemos visto que las jerarquías abstactas se vuelven disfuncionales y tarde o temprano llevan a la guerra.
 
 Los desarrolladores de software moderno han tomado el hábito de usar la lógica de sus programas para darles permisos especiales que les dan poder asimétrico sobre el recurso esencial que ha emergido en este siglo: los bits de información.
 
@@ -363,6 +363,8 @@ p296 Al contrario que el resto de bitcoiniers Lowery propone que los estados nac
 No hay ninguna mención al gen egoista de Dawkin.
 
 No hace ningún descubrimiento nuevo, el uso de proof of work como sistema anti spam ya es antiguo, su idea de generalizarlo al resto no es nada inovadora, sin embargo su explicación de la misma y su encuadre dentro de la evolución, específicamente dentro de la humana si es brillante. El concepto de mecanismo planetario de estado" es una fumada?
+
+Al contrario de lo que asevera P. Turchin, es el (buen) dinero lo que nos hace mas cooperadores a los seres humanos.
 
 Preguntas
 ---------
