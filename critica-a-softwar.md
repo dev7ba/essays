@@ -314,11 +314,11 @@ Si una persona puede verificar que existe poder físico, puede estar mucho mas s
 
 [aquí el autor le da demasiadas propiedades al POW, por añadir una prueba de trabajo a algo no es real, sólamente se ha ejecutado fuerza para ello] Hace falta competición de fuerza para decidir lo que es real.]
 
-Los protocolos PoW tienen propiedades metacognitivas qeu podrían transformar como la gente percibe y se comporta en el ciberespacio, de formas que todavía no podemos comprender o apreciar en su completitud porque la tecnología es demasiado joven.
+Los protocolos PoW tienen propiedades metacognitivas que podrían transformar como la gente percibe y se comporta en el ciberespacio, de formas que todavía no podemos comprender o apreciar en su completitud porque la tecnología es demasiado joven.
 
-Es posible que lo que estamos viendo con la adopción global de Bitcoin represente un patrón 'estrangulador' que se está desarrollando en la arquitectura existente de Internet - podríamos estar modernizando un sistema informático grande y monolítico en este momento al reemplazar gradualmente los servicios realizados en el sistema heredado con servicios realizados en el sistema modernizado, y podría ser simplemente que el intercambio de información financiera represente el primer servicio de muchos que se realizarán en una arquitectura modernizada de la World Wide Web.
+Es posible que lo que estamos viendo con la adopción global de Bitcoin represente un patrón 'estrangulador' que se está desarrollando en la arquitectura existente de Internet - podríamos estar modernizando en este momento un sistema informático grande y monolítico al reemplazar gradualmente los servicios realizados en el sistema heredado con servicios realizados en el sistema modernizado, y podría ser simplemente que el intercambio de información financiera represente el primer servicio de muchos que se realizarán en una arquitectura modernizada de la World Wide Web.
 
-La gente que utiliza protocolos PoW como Bitcoin están usando un tipo de pensamiento abstracto que la gente que usa programas normales. Los ingenieros software no están reconociendo el valor de PoW porque han sido entrenados por sus industrias para ignorar lo que ocurre debajo de la alfombra.
+La gente que utiliza protocolos PoW como Bitcoin están usando un tipo de pensamiento abstracto diferente a la gente que usa programas normales. Los ingenieros software no están reconociendo el valor de PoW porque han sido entrenados por sus industrias para ignorar lo que ocurre debajo de la alfombra.
 
 Es imposible que los protocolos PoS repliquen las propiedades de PoW. La gente ignora que la creación de una computadora físicamente costosa con el propósito de producir bits de información físicamente restringidos y termodinámicamente limitados es la función principal entregada del protocolo de prueba de trabajo. El objetivo del protocolo es crear bits físicamente costosos, ya que los bits físicamente costosos son útiles para la ciberseguridad y muchas otras aplicaciones mencionadas anteriormente
 
@@ -341,8 +341,6 @@ Crítica
 
 El autor no tiene muy clara la distinción entre estado y nación. Creo que lo considera lo mismo, pese a que ataca a la democracia como un sistema de poder imaginario.
 
-Para el autor Bitcoin es convincente no como un sistema monetario candidato sino como un sistema de seguridad eléctrico-cybernético.p 253
-
 La guerra puede ser centralizadora o descentralizadora. Lowery no lo explica bien aquí. Es centralizadora cuando la ejerce el estado, Es descentralizadora cuando la ejerce la nación. p205. La descentralización también puede darse mediante vía poder abstracto p.e. propaganda vía imprenta sobre la inquisición española.
 
 Quien tiene que minar no es el estado, sino la nación, la gente.
@@ -356,15 +354,15 @@ Los rigs de minería se van a prohibir en algunos paises como china al igual que
  
 Bitcoin es convincente no como un sistema monetario candidato sino como un sistema de seguridad electro-cybernético. p253 Sin embargo, El autor cree mas en Bitcoin por su proof of work que por su valor como moneda.
 
-Tras explicar los problemas de la ingeniería software de manera correcta, no creo que el PoW sea la mínima solución a los mismos, sino, si acaso el acceso al código fuente. usa los problemas de la ingeniería de software (especificaciones arbitrarias) para decir que satoshi no creo una moneda peer to peer, sino un sistema de cyberdefensa. Tal vez, sea una propiedad emergente del código, no un error de software
+Tras explicar los problemas de la ingeniería software de manera correcta, no creo que el PoW sea la única solución a los mismos, sino, si acaso el acceso al código fuente. usa los problemas de la ingeniería de software (especificaciones arbitrarias) para decir que satoshi no creo una moneda peer to peer, sino un sistema de cyberdefensa. Tal vez, sea una propiedad emergente del código, no un error de Satoshi
 
 ¿Cómo se va a articular la guerra en Bitcoin si el 51% se lo lleva todo? Es como un voto, como en la democracia, salvo que un voto cuesta Watios. Sin embargo, en la guerra, una armada un 90% inferior todavía puede hacer un 10% de daño al contrincante. ¿Tiene esto alguna implicación? Hay que pensarlo.
 
-p296 Al contrario que el resto de bitcoiniers Lowery propone que los estados nación utilicen el protocolo bitcoin para defenderse de quién ¿No tenían capacidad nuclear para defenderse de otros estados?. ¿Quiere que el estado se defienda de sus ciudadanos? ¿Lowery está proponiendo al estado nación como defensor del ciudadano?
+p296 Al contrario que el resto de bitcoiniers Lowery propone que los estados nación utilicen el protocolo bitcoin para defenderse de quién ¿No tenían capacidad nuclear para defenderse de otros estados?. ¿Quiere que el estado se defienda de sus ciudadanos? ¿Lowery está proponiendo al estado nación como defensor del ciudadano? para Jason Lowery vemos que "La tercera guerra mundial será una guerra de guerrillas de información sin division entre la participacion civil o militar".p348.
 
 No hay ninguna mención al gen egoista de Dawkin.
 
-No hace ningún descubrimiento nuevo, el uso de proof of work como sistema anti spam ya es antiguo, su idea de generalizarlo al resto no es nada inovadora, sin embargo su explicación de la misma y su encuadre dentro de la evolución, específicamente dentro de la humana si es brillante. El concepto de mecanismo planetario de estado" es una fumada?
+No hace ningún descubrimiento nuevo, el uso de proof of work como sistema anti spam ya es antiguo, su idea de generalizarlo al resto no es nada inovadora, sin embargo su explicación de la misma y su encuadre dentro de la evolución de la proyeción de poder de la sociedad humana es brillante. El concepto de mecanismo planetario de estado" es una fumada?
 
 Al contrario de lo que asevera P. Turchin, es el (buen) dinero lo que nos hace mas cooperadores a los seres humanos.
 
