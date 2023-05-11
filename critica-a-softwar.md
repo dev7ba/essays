@@ -190,11 +190,11 @@ Capítulo 5
 
 En el siglo 21 gran parte de las jerarquías de poder abstractas están codificadas en código, no en leyes. Google, Facebook, Twitter y Amazon tenen mas clientes que ciudadanos los gobiernos. Cada persona o institución necesita su permiso tácito para enviar, recibir o guardar información, son, operativamente, una jerarquía abstracta de facto, Y ya hemos visto que las jerarquías abstactas se vuelven disfuncionales y tarde o temprano llevan a la guerra.
 
-Los desarrolladores de software moderno han tomado el hábito de usar la lógica de sus programas para darles permisos especiales que les dan poder asimétrico sobre el recurso esencial que ha emergido en este siglo: los bits de información.
+Los desarrolladores de software moderno han tomado el hábito de usar la lógica de sus programas para darse permisos especiales que les dan poder asimétrico sobre el recurso esencial que ha emergido en este siglo: los bits de información.
 
 La manera que construimos nuestras redes de ordenadores y diseñamos nuestros sistemas software han causado que la gente al cargo de eso sistemas ganen inmenso poder abstracto sobre nuestros recursos digitales. Por lo que, como consecuencia, cualquiera que use este tipo de software está sujeto a explotación y abuso. Un nuevo tipo de jerarca está tomando forma en el siglo 21. Uno que tiene bajo control nuestros recursos digitales en vez de nuestros recursos agrarios (o industriales).
 
-Creer que la sociedad va a ser capaz de restringir el enorme poder abstracto asimétrico de estos jerarcas usando mas logica (mediante mas regulaciones o mas software) es ignorar 5000 años en los que nuestros predecesores han intentado restringir logicamente el poder abstracto de los previos gobernantes al frente de sus respectivas jerarquías de poder. Tarde o temprano, la genta va a empezar a usar gran cantidad de poder fisico para descentralizar la autoridad que tienen sobre su información, y así, asegurando sus derechos digitales imponiendo severos costes físicos a alguien que quiera explotarlos mediante software.
+Creer que la sociedad va a ser capaz de restringir el enorme poder abstracto asimétrico de estos jerarcas usando mas lógica (mediante mas regulaciones o mas software) es ignorar 5000 años en los que nuestros predecesores han intentado restringir logicamente el poder abstracto de los previos gobernantes al frente de sus respectivas jerarquías de poder. Tarde o temprano, la genta va a empezar a usar gran cantidad de poder fisico para descentralizar la autoridad que tienen sobre su información, y así, asegurando sus derechos digitales imponiendo severos costes físicos a alguien que quiera explotarlos mediante software.
 
 Los signos del abuso sistémico de la infraestrucutra digital son varios: La conversión en un arma de la desinformación, granjas de trolls y bots, ataques de impersonación y de DoS, epidemias de Hackeo, fraude online en gran escala, censura, censura en la sombra, robo de datos rutinarios, vigilancia patrocinada por el estado vía aplicaciones de entretenimiento, campañas electorales focalizadas en las redes sociales, compañias de software ejecutando de forma rutinaria experimentos sociales con sus usuarios, IA sin supervisar controlando el flujo de información de millones de personas, redes sociales capturadas por especiales grupos de interés, y entre todo esto, ni un solo rastro razonable de privacidad para ninguna actividad en la red.
 
@@ -340,6 +340,8 @@ Crítica
 -------
 
 El autor no tiene muy clara la distinción entre estado y nación. Creo que lo considera lo mismo, pese a que ataca a la democracia como un sistema de poder imaginario.
+
+Para el autor Bitcoin es convincente no como un sistema monetario candidato sino como un sistema de seguridad eléctrico-cybernético.p 253
 
 La guerra puede ser centralizadora o descentralizadora. Lowery no lo explica bien aquí. Es centralizadora cuando la ejerce el estado, Es descentralizadora cuando la ejerce la nación. p205. La descentralización también puede darse mediante vía poder abstracto p.e. propaganda vía imprenta sobre la inquisición española.
 

@@ -129,11 +129,57 @@ El autor no cree probable que otro tipo tecnología cinética pueda reemplazar a
 
 Finalmente, y para que quede claro el punto de vista del autor, (inspirado por Tesla): "La clave para ganar futuras guerras parece ser encontrar un terreno de batalla donde se puede luchar y ganar sin importar cuan poderoso y eficiente se hace el homo sapiens a la hora de proyectar poder, éste terreno de batalla es claramente el ciberespacio.", "Las naciones en el futuro, van a incrementar su dependencia de formas "suaves" de guerra [..]".p248. "Es razonable pensar que las naciones continuarán compitiendo entre ellas para establecer una jerarquía sin terceros de confianza, pero aprenderán a hacerlo cada vez mas de forma eléctrica en vez de física". p250/251.
 
-
 ##Proyección de poder en el ciberespacio.
 -----------------------------------------
 
+En el siglo 21 gran parte de las jerarquías de poder abstractas están codificadas en código, no en leyes. Google, Facebook, Twitter y Amazon tenen mas clientes que los gobiernos ciudadanos. Cada persona o institución necesita su permiso tácito para enviar, recibir o guardar información, son, operativamente, una jerarquía abstracta de facto. Ya hemos visto que las jerarquías abstactas se vuelven disfuncionales y tarde o temprano llevan a la guerra. Los desarrolladores de software moderno han tomado el hábito de usar la lógica de sus programas para darse permisos especiales que les dan poder asimétrico sobre el recurso esencial que ha emergido en este siglo: los bits de información. La manera que construimos nuestras redes de ordenadores y diseñamos nuestros sistemas software han causado que la gente al cargo de estos sistemas ganen un inmenso poder abstracto sobre nuestros recursos digitales, por lo que, como consecuencia, cualquiera que use este tipo de software está sujeto a explotación y abuso. Un nuevo tipo de jerarca está tomando forma en el siglo 21. Uno que tiene bajo control nuestros recursos digitales en vez de nuestros recursos agrarios o industriales.
 
+Creer que la sociedad va a ser capaz de restringir el enorme poder abstracto asimétrico de estos jerarcas usando mas lógica, véase mediante mas regulaciones o mas software es ignorar 5000 años en los que nuestros predecesores han intentado restringir lógicamente el poder abstracto de los previos gobernantes al frente de sus respectivas jerarquías de poder. Tarde o temprano, la genta va a empezar a usar gran cantidad de poder fisico para descentralizar la autoridad que tienen sobre su información, y así, asegurar sus derechos digitales imponiendo severos costes a alguien que quiera explotarlos mediante software.
+
+Los signos del abuso sistémico que se produce actualmente en la infraestructutra digital son varios: La conversión de la misma en un arma de la desinformación, granjas de trolls y bots, ataques de impersonación y de denegación de servicio, epidemia de hackeos, fraude online en gran escala, censura, censura en la sombra, robo de datos de forma rutinaria, vigilancia patrocinada por el estado vía aplicaciones de entretenimiento, campañas electorales focalizadas en las redes sociales, compañias de software ejecutando de forma rutinaria experimentos sociales con sus usuarios, inteligencias artificiales sin supervisar controlando el flujo de información de millones de personas, redes sociales capturadas por especiales grupos de interés, y entre todo esto, ni un solo rastro razonable de privacidad para ninguna actividad en la red.
+
+La compañias software se están volviendo asimétricamente ricas e influyentes gracias a los datos que cosechan de la población. El derecho de reunión, colaboración, expresión, e intercambio de recursos como el dinero se va incrementado por el software, lo que significa que estas funciones sociales vitales están bajo el control completo de la gente que controla este software. Para asegurar nuestra infraestructura digital, tenemos que encontrar un conjunto de nuevas tácticas de proyección de poder, técnicas y tecnologías que les de a la gente una nueva forma de imponer severos costes en las personas que esgrimen demasiado poder abstacto y demasiada autoridad sobre nuestra información digital.
+
+Para Lowery: "Bitcoin es convincente no como un candidato a sistema monetario sino como sistema de seguridad eléctrico-cybernético".p253
+
+Efectivamente, Bitcoin demuestra que la gente puede ganar y mantener un control sin confianza o permiso de terceros, igualitario y descentralizado sobre bits de información, mientras este dispuesta a proyectar poder para asegurarlo. Bitcoin no es meramente un sistema monetario, sino quizás un tipo de poder "suave" que ha replicado exitosamente el mismo beneficio emergente complejo de la guerra, salvo sus efectos secundarios destructivos. "A través de la adopción global en curso de Bitcoin, parece que las personas están construyendo la mayor jerarquía de dominancia basada en poder fisico jamás creada en la historia humana. Las implicaciones de esto pueden ser extraordinariamente disruptivas para todas las jerarquías de poder existentes, incluidas, especialmente, los estados nación." p254 
+
+Lowery nos remite a la historia y funcionamiento de los computadores para tratar de comprender cómo y por qué hemos llegado a tener los problemas comentados y de que forma Bitcoin puede ayudarnos a resolverlos. Veámoslo.
+
+Programar máquinas de estados, o como las llamamos ahora, ordenadores, era una compleja tarea manual que se llevaba a cabo tirando de palancas, girando diales, recableando circuitos, etc. Sin embargo, con la aparicíon de la computación con un programa almacenado en memoria (máquna de John von Newmann) y la invención del código máquina, la tarea de programar pasa de ser manual a ser un ejercicio de pensamiento abstrato. El código máquina representa la emergencia de un nuevo lenguaje simbólico así como un nuevo medio atraves del cuál se puede comunicar y expresar información compleja tanto sintáctica como semánticamente. "El arte de la programación es un proceso altamente creativo y abstracto que se parece a escribir una historia ficticia. Así como los guionistas escriben historias para ser representadas por actores, los programadores escriben historias para que los ordenadores las ejecuten".p256
+
+Por otra parte, los humanos nos hemos comunicado siempre convertirtiendo ondas sonoras (voz) en información usando el lenguaje hablado. Pero ahora, usando código máquina, es posible convertir prácticamente cualquier tipo de fenómeno de cambio físico en el universo en bits de información digitalizada. Esto ha provocado que los humanos hayamos ido usando diferentes tipos de canales de información: 1) primero usando la voz, 2) luego el lenguaje máquina para comunicarnos con el ordenador, y 3) finalmente, usar el ordenador como intermediario de las comunicaciones entre humanos. "Con la invención de los ordenadores digitales, los homo sapiens han transformado su habilidad de comunicarse pensamientos abstractos a un nuevo tipo de realidad abstracta compartida, lo que ahora llamamos ciberespacio".p264
+
+Estos dos anteriores puntos, que la programación sea equivalente a contar una historia y que los ordenadores sean intermediarios entre las comunicaciones, provocan que la programación sea una forma de poder abstracto que es usada por "cuentistas" [4] para abusar sistemáticamente de la población.
+
+En efecto, los programas informáticos no existen realmente, son conceptos abstractos hipostasiados como cosas reales para reducir el esfuerzo intelectual. Incluso los propios ingenieros informáticos, en nombre de la simplicidad, han adoptado el hábito de hipostasiar programas como si fueran cosas concretas. p.e. Programación orientada a objetos. El problema es que, tal y como con los guerreros (que usan poder físico) hipostasiaban el poder del gobierno (poder abstracto), los programas informáticos hipostasian la realidad. Los programas informáticos son unos "cuentistas".
+
+Pero aún peor: no es que los programas informáticos engañen a los humanos, es que debido a que son sistemas de creencias, no sistemas físicos (son abstracciones programadas en un ordenador en vez de habladas o escritas). Los programas informáticos son vulnerables a su abuso de forma sistemática como lo son todos los sistemas de creencias (veáse, pueden ser hackeados). "Un primer paso importante en la mejora de la seguridad del software consiste en comprender que el software es básicamente un sistema de creencias abstracto sistemáticamente vulnerable a la explotación y al abuso".p265 Los problemas de seguridad software son enormes: "Si el dinero total robado por el cibercrimen se compara con un pais, representaría la tercera economía del mundo".p265 
+
+El autor procede a enumerar los principales problemas que tiene el software: 
+
+(1) Un espacio de estados que crece infinitamente con infinitos estados peligrosos (contra mas complejo es el software, peor, ya que hay mas superficie de ataque). 
+
+(2) El cambio de un sólo sólo bit puede tener consecuencas catastróficas. "[..] un comportamiento emergente totalmente diferente a pesar de haber cambiado muy poco".p268 
+
+(3) Es muy sencillo hacer software que sea inmanejablemente complejo: como el diseño software es abstracto, "carece de restricciones físicas y crea una responsabilidad extra el los programadores para tener la autodisciplina suficiente para no crear diseños demasiado complejos e inmanejables, muchos programadores se encojen de hombros frente a esto" [13]
+
+(4) Los interfaces software son sencillos de hacer y son invisibles, haciéndolos sencillos de ocultar. Estos se usan para reducir el esfuerzo intelectual, pero son los mejores hipostasiadores. 
+
+(5) Las especificaciones software son arbitrarias, ambiguas y ocultan información crítica para la seguridad del mismo. Se debe hacer hincapié en que "los que crean y especifican un sistema software lo hacen tomando decisiones arbitrarias acerca de qué nombrar y que información creen que es importante compartir. No hay tal cosa como una especificación software técnicamente precisa debido a que el software, en sí mismo, es un concepto imaginario y abstracto", "Las especificaciones abstractas de diseño software se han vuelto populares por cuanta información suprimen y cuan fáciles son de comprender, no por lo técnicamente válidas que son".p274, "la falta de conciencia de este problema en gran escala lleva a una cultura de seguridad informática muy pobre en donde los ingenieros siguen produciendo, promoviendo o reusando especificaciones abstractas de diseño software que no son precisas técnicamente y ocultan información vital para la seguridad".p275 
+
+Este punto es además importante para el autor porque justifica que: "la gente parece estar perdiendo información vital acerca de la seguridad en Bitcoin o saltando a conclusiones inapropiadas por la decisión arbitraria de su inventor de describirlo como un sistema de pagos peer-to-peer".p275
+
+(6) El software confía a ciertas personas niveles sin precedentes de poder abstracto asimétrico (autoridad de control) sobre nuestros recursos digitales vitales. Si construyes jerarquías de poder abstracto basadas en el rango, los depredadores sistémicos serán atraídos a esas posiciones como polillas a la luz.
+
+Añado además una cita en la cabecera del capítulo del libro para que los ingenieros informáticos reflexionen sobre ella: "[Las restricciones software] no pueden subsituir a las restricciones físicas que se encuentran de forma natural en otras disciplinas. Sin las severas e indiferentes fuerzas de la naturaleza forzándonos a tomar decisiones difíciles... somos seducidos de forma voluntaria".p252 [13]
+
+
+Volviendo al abuso de las personas a través de los ordenadores, el autor indica que, la incapacidad de hacer una distinción entre realidad abstracta y física pude causar que las personas se pongan en situaciones donde pueden ser masivamente explotadas atraves del software. El sistema de creencias a través del cuál la población puede ser explotada no es ideológica, moral, ética o teológica, sino a través de su software y la percepción programada de la realidad abstracta compartida que llamamos cyberespacio. La gente es vulnerable a la explotación debido a la forma en la que se ha construido internet en un sentido amplio: se debe confiar en los programadores y administradores de sistemas para que no exploten a la gente a través de la realidad virtual que codifican para nosotros, Sin embargo, confiar en personas se ha demostrado claramente que es una estrategia muy pobre.
+
+Una vez que la población ha adoptado un sistema de creencias en la que necesitan tu permiso o aprobación, has ganado poder abstracto e influencia sobre ellos. El software moderno ha creado un imperio opresivo, una clase gobernante tecnocrática que a través de la realidad abstracta del ciberespacio, hace que la sociedad puede ser atrapada, domesticada, criada y arreada como ganado.p281-282 Dada la forma en la que internet está diseñado, los usuarios operando en el ciberespacio son domesticados automaticamente, ya que la arquitectura necesaria para proyectar poder fisico y restringir a actores beligerantes no se encuentra actualmente disponible. Hoy, la cantidad de poder abstracto y autoridad sobre el control de recursos permitida a los programadores a través del software que escriben eclipsa al de muchas naciones estado. Sin adoptar un protocolo de "softwar", naciones enteras pueden ser vulnerables al convertirse en sirvientes de una élite: una clase gobernante tecnocrática que puede surgir de forma doméstica o de un poder extranjero.
+
+"Tal y como la sociedad agraria llevó a la aparición de los imperios, el ciberespacio parece estar llevando a la formación de ciberimperios. Si la historia se repite, el siguiente paso inevitable para la sociedad digital despues del surgimiento del software como poder abstracto, es la emergencia de la guerra "suave" (softwar) como poder físico generado por ordenador para desmantelarlo, descentralizarlo rebalancearlo y restringirlo".p292
 
 
 
@@ -143,13 +189,13 @@ Finalmente, y para que quede claro el punto de vista del autor, (inspirado por T
 
 [2] Benefit-to-Cost ratio of attack.
 
-[3] También conocido como Schelling Point.
+[3] N.d.T. Schelling Point.
 
 [4] Nótese del uso del autor de la palabra "storyteller", que podría ser sustituida por político, banquero, chamán, faraón, sacerdote... etc.
 
-[5] N.d.T Gatekeeper
+[5] N.d.T. Gatekeeper
 
-[6] N.d.T Gatekeeping
+[6] N.d.T. Gatekeeping
 
 [7] A partir de ahora PoW y PoS respecivamente.
 
@@ -159,4 +205,7 @@ Finalmente, y para que quede claro el punto de vista del autor, (inspirado por T
 
 [10] "Ford would replace gold with energy currency and stop wars" New York Tribune, New York 1921. También N. Tesla "A Machine to end war", Liberty, 1937, y finalmente: N.Tesla "The problem of increasing human energy", The Century Magazine, 1900.
 
+
 [12] Ojo con este punto, La disuasión nuclear se mantiene, no se sustituye por la "proyeción de poder eléctrico".
+
+[13] N. Leveson, An introduction to System Safety Engineering, Cambridge, MA: MIT Press, 2022.
