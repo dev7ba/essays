@@ -364,8 +364,11 @@ No hay ninguna mención al gen egoista de Dawkin.
 
 El autor no hace ningún descubrimiento nuevo, el uso de proof of work como sistema anti spam ya es antiguo, su idea de generalizarlo al resto no es nada inovadora, sin embargo su explicación de la misma y su encuadre dentro de la evolución de la proyeción de poder de la sociedad humana es brillante. El concepto de mecanismo planetario de estado" es una fumada?
 
-
 Al contrario de lo que asevera P. Turchin, es el (buen) dinero lo que nos hace mas cooperadores a los seres humanos.
+
+El autor da un repaso muy general a Bitcoin, pero yendo al detalle, comete errores, El principal es que cree que un estado nación se puede suscribir a Bitcoin para defender sus capacidades de intercambio con el resto del mundo como un servicio physical security-as-a-service.p368. Sin embargo omite, o no sabe las dinámicas que se crearían debido a las censuras del 51%. Esto es un tema a pensar, pero habría que compararlo con la tesis anarcocapitalista? de Eric de que "el beneficio de los mineros es el diferencial con respecto a los impuestos". Tal vez los estados lucharan para formar coaliciones en las que ciertas transacciones lograrán minarse y otras no, simplemente por el hecho de que el 51% de las naciones no quieren que esto pase, o ponen un coste en fees muy grande que hay que pagar. Las dinámicas de esto pueden ser muy complejas.
+
+Si ves la softwar una guerra en donde los contendientes son naciones y civiles, ¿Donde quedan estos últimos en la lucha teniendo en cuenta una posible censura de trx del 51%?
 
 Preguntas
 ---------
