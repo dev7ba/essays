@@ -204,6 +204,24 @@ La segunda crítica al protocolo PoS es menos educada que la anterior, ya que lo
 
 El autor incide en que "No es sorprendente que los desarrolladores principales del sistema PoS mas grande hayan iniciado una tendencia de marginar a aquellos que los acusan de ser fraudulentos, calificándolos como "maximalistas de Bitcoin". [..] Este comportamiento alegando que el poder imaginario tienen las mismas propiedades que el poder real puede ser interpretado como la misma táctica usada por los jerarcas a la hora de proyectar poder imaginario, tiene las mismas motivaciones morales, eticas e ideologicas detrás de ello".p338-339. "Al igual que han estado haciendo durante miles de años, las personas quieren creer que los protocolos de prueba de poder imaginario pueden reemplazar suficientemente a los protocolos de prueba de poder real porque no les gusta el gasto de energía necesario para usar el poder real como base para resolver sus disputas, establecer la autoridad de control sobre sus recursos valiosos o lograr consenso sobre el estado legítimo de propiedad y cadena de custodia de sus propiedades de manera segura, sin confianza, sin permiso y de manera sistemáticamente segura".p339. En resumen,PoS es una repetición del peligro de domesticación.
 
+Para evitar confusiones con lo que autor realmente piensa que representa Bitcoin, a partir de este momento lo llamará bitpower, y su significado es el de "cantidades de poder (vatios) convertidos en bits de información escasos físicamente, descentralizados y costosos que pueden ser transferidos por el cyberespacio".p345, para el autor "Bitpower no es un concepto imaginario para hacer a la gente mas fácil comprender un caso de uso específico de una tecnología, es literalmente poder (vatios) que la gente elige tratar como información". Lowery critica la parte del nombre "coin" o moneda de bitcoin porque, hipostatiza, o se hace pasar por la parte de "power", que es lo que realmente es. Esto es un detalle importante porque hace mas sencillo ver cuan dominante y diferente es Bitcoin con respecto al resto de criptomonedas. Bitcoin representa el 94% del hashrate de todas las funciones de coste del resto de protocolos combinados,[15] y 16 veces mas potente que el resto de protocolos PoW combinados [16]. "Esta dominancia ha sido sesgada por personas que no comprenden, ignoran deliberadamente o intentan marginalizar o condenar el uso de potencia de Bitcoin".p347
+
+El autor llama la atención sobre una característica del diseño de Bitcoin que le parece muy importante y es que convierte un suministro (posiblemente) ilimitado de poder físico en vatios en un suministro limitado de bitpower (su reprentación en bits). Esto crea una propiedad emergente en bitpower en la que un solo bit de bitpower puede estar respaldado por una cantidad ilimitada de poder real físico[17]. Una cantidad arbitraria de bitpower hereda toda la cantidad de poder físico añadido en el futuro[18], por lo que una cantidad minúscula de bitpower puede representar una cantidad ilimitada de potencia física, dando una ventaja al "pionero" o precursor que es necesaria señalar.
+
+Una clara aplicación del bitpower, es en ciberseguridad, ya que a partir de ahora, los ingenieros tienen un sistema diferente para permitir el acceso o la ejecución de ciertas acciones de control de un programa que el de hacer una jerarquía de acceso y darle el poder a ciertas personas sobre la misma (crear una jerarquía abstracta de poder). Ahora, pueden aplicar restriciones físicas (no abstractas) para establecer el control de ese software. En definitiva, podemos en el ciberespacio establecer jerarquías a la "antigua usanza" en la naturaleza, usando poder físico, pero esta vez no poder físico cinético que puede crear destrucción, sino poder físico eléctrico. Lowery comenta "Contrarrestar físicamente una jeararquia de poder abstracta es "the american way"[..] gracias a Bitcoin los Americanos (con mayúscula) hemos ganado la capacidad de hacerlo en el ciberespacio".p355.
+
+Para el autor Bitcoin no es un protocolo monetario, sino un protocolo de bit-poder, por lo que su aplicación monetaria es sólamente uno de los muchos casos de uso que se le va a dar[19]. para el autor "en lo que puede ser el mayor caballo de Troya desde la guerra de Troya" afirma que: "La decisión de enmarcar a Bitcoin como sólamente un sistema de pagos electrónicos ha motivado a que se subsidie a nivel transnacional el desarrollo de una red global, de defensa electro-cibernética que empodera a la población con un aceso sin confianza en terceros ni permiso al bit-poder [..] con esta nueva arquitectura la gente es capaz de defenderse frente a hackers y la clase tecnocrática emergente, y todo ello sin derramar una gota de sangre".p357.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -236,3 +254,13 @@ El autor incide en que "No es sorprendente que los desarrolladores principales d
 [13] N. Leveson, An introduction to System Safety Engineering, Cambridge, MA: MIT Press, 2022.
 
 [14] Recordemos: un organismo infinitamente próspero es aquel que puede aumentar el coste de ser atacado hasta el infinito.
+
+[15] Total Bitcoin hashrate, blockchain.com, 2022,[online] Disponible en https://www.blockchain.com/explorer/charts/hash-rate (Tras ver la página web no se de dónde se ha sacado el autor la cifra del 94%) además creo que es una mala medida, una función de coste o "hash" en otro protocolo puede ser mas costosa que otro protocolo.
+
+[16] Usando Litecoin, Dogecoin, Bitcoin Cash, Monero, Ethereum Classic, Dash y Zcash. Y usando el hash rate como proxy para medir la cantidad de poder real en vatios consumidos por la red.
+
+[17] Ojo, hay de diferenciar entre ilimitado e infinito, aquí el autor quiere decir que es ilimitado porque no hay nada que lo restrinja, sin embargo no es infinito porque la cantidad que de energía que se puede "quemar" es finita.
+
+[18] Desde el momento de la adquisición, claro está, aunque el autor no lo deje claro.
+
+[19] Si que decir tiene que Lowery ha mostrado su complacencia por Twitter con el protocolo de ordinals.

@@ -362,7 +362,8 @@ p296 Al contrario que el resto de bitcoiniers Lowery propone que los estados nac
 
 No hay ninguna mención al gen egoista de Dawkin.
 
-No hace ningún descubrimiento nuevo, el uso de proof of work como sistema anti spam ya es antiguo, su idea de generalizarlo al resto no es nada inovadora, sin embargo su explicación de la misma y su encuadre dentro de la evolución de la proyeción de poder de la sociedad humana es brillante. El concepto de mecanismo planetario de estado" es una fumada?
+El autor no hace ningún descubrimiento nuevo, el uso de proof of work como sistema anti spam ya es antiguo, su idea de generalizarlo al resto no es nada inovadora, sin embargo su explicación de la misma y su encuadre dentro de la evolución de la proyeción de poder de la sociedad humana es brillante. El concepto de mecanismo planetario de estado" es una fumada?
+
 
 Al contrario de lo que asevera P. Turchin, es el (buen) dinero lo que nos hace mas cooperadores a los seres humanos.
 
@@ -390,4 +391,20 @@ Proyección de poder en el ciberespacio.
 Conclusión.
 
 
+Carta a Jason:
+-------------
+
+Hi Jason, I'm dev7ba a developer interested in the bitcoin protocol, especially the mempool (see mempoolexplorer.com), and an active member of the spanish bitcoin community in Madrid, Spain.
+
+I'm writing a summary/review about your book in Spanish, mainly because it's quite difficult to make people read a 400-page thesis in a foreign language, and I'd like your ideas to be known/discussed here.
+
+I expect the summary to be arround 15k words, and currently contains several literal quotes of your book with it's page number. Id like to know if you are confortable with that, and grants me your permission. I could reduce the number of that quotes if you want. 
+
+I let you know that this summary will be read, apart from the spanish speaking bitcoin community. by the author of "The philosophy of bitcoin" (he is spanish), and hopefully by the editors of the spanish translation of the book "the sovereign individual": Adolfo Contreras and Javier Maestre.
+
+Of course I'm not going to earn any money with this, nor copyright any of it. It will be published in my github account and maybe in https://estudiobitcoin.com/ a webpage run by @lunaticoin, best bitcoin podcaster in spanish language afaik.
+
+Ah! I can see that your Thesis is has a MIT license, so I don't find any problem doing it. 
+
+Anyway, Thanks for your work, 
 
