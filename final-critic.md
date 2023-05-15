@@ -216,7 +216,33 @@ Para el autor Bitcoin no es un protocolo monetario, sino un protocolo de bit-pod
 
 Sin embargo el uso de bit-poder no está restringido a sólamente la población, las naciones también pueden tener interés en usarlo, por que, según Lowery, si una de de las funciones de ejército es la de mantener, no sólo ya los bordes de la nación, sino también sus rutas de comercio, y dado que entre las cosas mas valiosas en la actualidad es el intercambio de información financiera (dinero), no es de extrañar que también estén interesadas. Veamos: la red por la que circula la informacion bancaria es monopolio exclusivo de una sola organización, la red SWIFT, que da un extraordinario poder abstracto a los EEUU, cualquier usuario de esa red es vulnerable a un ataque de denegación de servicio por parte del controlador. Los EEUU han demostrado sin duda que pueden hacer un ataque de denegación de servicio a Rusia, Iran y otros paises desde la red SWIFT. Lowery se pregunta "¿Por qué cualquier pais que se tiene respeto y quiere un acceso soberano al intercambio de informacion a través del dominio del ciberespacio querría subscribirse a un sistema basado en permisos como éste?".p367. Con cualquier otra red podría pasar lo mismo, lo único que se cambiarían serían los controladores de dicha red, por lo que el autor afirma que "Si las teorías presentadas en esta tesis son correctas y es verdad que los protocolos de PoW como Bitcon utilizan la red eléctrica como un ordenador de escala planetaria que añade un nuevo espacio de estados al actual de internet, entonces este nuevo espacio de estados podría representar la primera ruta comercial digital igualitaria y sin permiso ni confianza en terceros en la que las naciones pueden confiar para intercambiar sus mas valiosos bits de información [..] un obvio primer caso de uso es la preservación de la libertad de intercambio de informacion necesaria para el comercio internacional, pero seguramente habrá muchos mas casos de uso".p367. 
 
-El primer caso de esto el El Salvador, que está vendiendo bonos para subsidiar el desarrollo de su propia porción de la red Bitcoin que convierte la energia geotérmica del país en bitpower. Pero incluso si El Salvador no eligiera construir su propia fuerza de hashing, y simplemente eligiera usar Bitcoin, estaría heredando su seguridad, sería el equivalente a subscribirse a un protocolo de seguridad de grado militar tipo "seguridad-as-a-service".[20] Bitcoin, es además un protocolo con muy bajo BCR_A, ya que para destruirlo hace falta eliminar internet y la red eléctrica mundial. "Bicoin repesenta una tecnología clave para una nueva estrategia de seguridad nacional que pueda vencer al empate nuclear". Sin embargo, el autor reconoce que existe la posibilidad de que "todos los participantes en la red se unan contra una nación para detener sus transacciones válidas. Afortunádamente, la manera de prevenir esto es tener tu propia fuerza hash para garantizar tu permiso de escritura en el libro contable".p369-370 [20].
+El primer caso de esto es El Salvador, que está vendiendo bonos para subsidiar el desarrollo de su propia porción de la red Bitcoin que convierte la energia geotérmica del país en bitpower. Pero incluso si El Salvador no eligiera construir su propia fuerza de hashing, y simplemente eligiera usar Bitcoin, estaría heredando su seguridad, sería el equivalente a subscribirse a un protocolo de seguridad de grado militar tipo "seguridad-as-a-service".[20] Bitcoin, es además un protocolo con muy bajo BCR_A, ya que para destruirlo hace falta eliminar internet y la red eléctrica mundial. "Bicoin repesenta una tecnología clave para una nueva estrategia de seguridad nacional que pueda vencer al empate nuclear". Sin embargo, el autor reconoce que existe la posibilidad de que "todos los participantes en la red se unan contra una nación para detener sus transacciones válidas. Afortunádamente, la manera de prevenir esto es tener tu propia fuerza hash para garantizar tu permiso de escritura en el libro contable".p369-370 [20].
+
+Bitcoin podría resolver la paradoja de proyección de poder cinético, recordemos: debido a la guerra nuclear es imposible resolver una disputa si ambos bandos son destruidos mutuamente, hemos creado la manera mas ineficiente de resolver disputas internacionales. Ahora "Bitcon parece haber resuelto esta paradoja. Las competiciones globales de proyección de poder físico habilidas gracias a los protocolos de Softwar como Bitcoin, parecen resolver este entuerto [..] Sin importar cuán competitica sea la competición electro-cibernética, parece poco probable que pueda llevar a un estado de destrucción mutua asegurada, ya que no hay nada inerentemente destructivo en el desarrollo de formas de proyección de poder eléctricas de forma creciente". Además, asegura el autor, al contrario que la guerra cinética, este tipo de "Softwar" tiene como subproducto la creación de una mejor infraestructura eĺéctrica y una energía mas barata. 
+
+Es más, protocolos como Bitcoin podrían cambiar la dinámica de la guerra cinética de destrucción mutua asegurada, a "conservación mutua asegurada" debido a que "dos adversarios en sitios opuestos del mundo "permanecerían unidos" en una relacción simbiótica porque estarían usando dos caras de la misma máquina. [..] Si ambos [adversarios] intentaran marginalizar los permisos de escritura del otro usando  el mismo computador universal [21], construyendo una fuerza de hashing mas fuerte, Incrementarían el C_A y disminuirían el BCR_A de lam misma máquina en la que confían." Para Lowery, esta afirmación es válida mientras ninguna fuerza de hashing obtenga la mayoría, pero esto, para el autor es "fácilmente prevenible cuando todos los usuario tienen la libertad de añadir cantidades teóricamente ilimitadas de poder físico/hash al sistema desde su lugar del planeta"[21]. "Contra mas poder físico es añadido a la red de Bitcoin vía fuerzas de hasheo, el coste total para conseguir un control centralizado sobre la red aumenta, haciendo mas difícil para cualquier entidad ganar y mantener un control centralizado sobre el libro de cuentas. Esto crea un comportamiento emergente del protocolo Bitcoin donde los costes físicos requeridos para abusar de la red crecen hasta el infinito".p374."Los adversarios se convierten en beneficiarios mutuos porque los dos contribuyen en lados diferentes de la misma máquina de estados planetaria que ninguno controla. El protocolo suma su capacidad de proyección de poder para crear un coste único a la hora de atacar a la red en su conjunto, causando que las naciones se beneficien directamente de la capacidad de poder físico del adversario, incluso cuando están compitiendo entre ellos [..] Luchando entre ellos paradójicamente cooperan".p375. Bitcoin puede crear un organismo infinitamente próspero como se ha indicado en la primera sección de este resumen.
+
+## Recomendaciones
+------------------
+
+Lowery hace las siguientes recomendaciones al final de su tesis:
+
+1) Desarrollar mas teorías acerca de Bitcoin que no estén basadas en teoría financiara, monetaria o económica.
+
+2) Analizar Bitcoin de forma deductiva desde la perspectiva de la teoría de proyección de poder. Es decir, derivar nuevas hipótesis usando los conceptos de dicha teoría.
+
+En especial hace estar recomendaciones para futuras políticas acerca de Bitcoin:
+
+1) Que los burócratas dejen de confiar exclusivamente en teorías financiars, monetarias o económicas a la hora de conformar políticas públicas acerca de Bitcoin.
+
+2) Que los burócratas piensen en Bitcoin mas como un sistema de seguridad electro-cibernético mas que en un sistema monetario.
+
+3) Que se considere la idea de proteger Bitcoin bajo la segunda enmienda. Prohibir bitcoin es una violación de la segunda enmienda de la constitución de EEUU, ya que los ciudadanos estadounidenses tienen derecho a portar armas, ya sean cinéticas u eléctricas, para proteger sus bits, especialmente si esos bits son equivalentes a su propiedad soberana.
+
+4) Reconocer que PoS no es un reemplazo viable para PoW
+
+5) Si comentemos el error de creer que la siguente guerra mundial se va a parecer a la anterior, podemos perderla antes de que nos demos cuenta de que ha empezado. Para Lowery: "La forja de nuevas herramientas de proyección de poder, lleva directamente a la forja de nuevos imperios [..] la lección aprendida de la historia es simple: adáptate a las nuevas formas de proyección de poder según van emergiendo o pierde el imperio".p389
+
 
 
 
@@ -243,7 +269,6 @@ El primer caso de esto el El Salvador, que está vendiendo bonos para subsidiar 
 
 [10] "Ford would replace gold with energy currency and stop wars" New York Tribune, New York 1921. También N. Tesla "A Machine to end war", Liberty, 1937, y finalmente: N.Tesla "The problem of increasing human energy", The Century Magazine, 1900.
 
-
 [12] Ojo con este punto, La disuasión nuclear se mantiene, no se sustituye por la "proyeción de poder eléctrico".
 
 [13] N. Leveson, An introduction to System Safety Engineering, Cambridge, MA: MIT Press, 2022.
@@ -260,4 +285,6 @@ El primer caso de esto el El Salvador, que está vendiendo bonos para subsidiar 
 
 [19] Ni que decir tiene que Lowery ha mostrado su complacencia por Twitter con el protocolo de ordinals.
 
-[20] Cuidado con los ataques del 51% de censura de transacciones, de esto no habla el autor.
+[20] En la frase, son incorrectas dos palabras: "Todos" y" Garantizar". Aquí el autor parece ignorar los ataques del 51% de censura de transacciones. Véase mas adelante que el autor cree que esto no es un problema mientras los usuarios tengan la libertad de añadir mas cantidad de hash desde otra parte del planeta.
+
+[21] Esto es válido, si tienen dicha libertad, claro está, defendida con armas nucleares, por lo que PoW es un protocolo para evitar empate entre potencias ya nucleares, no para sustituir a la potencia nuclear por un protocolo PoW.
