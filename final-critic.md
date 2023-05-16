@@ -1,7 +1,9 @@
 #Softwar
 ---------
 
-El libro "Softwar" de Jason P. Lowery está empezando a tener gran repercusión dentro del mundo Bitcoin, y se ve necesario que sus ideas se divulgen al mayor conjunto de población posible para que puedan ser evaluadas y/o criticadas. Sin embargo, cabe advertir que no se trata de un libro, sino de una tesis doctoral del MIT (Instituto de Massachusetts de Tecnología) de 400 páginas. Esto hace que su lectura sea poco digerible para la mayoría de personas, y especialmente para los no angloparlantes. Espero que este resumen y posterior crítica que realizo les sirva a la comunidad hispanohablante de Bitcoin. No creo haber mejorado o empeorado la comprensión de la tesis, pero si he reducido el esfuerzo cognitivo requerido para su lectura, por su menor tamaño y su traducción al español.[^1] Vaya por delante que la tesis de este libro es independiente de mi parecer con respecto a los temas que trata, sólamente me he permitido la crítica en los superíndices 19 y 20, al final de la tesis. Es posible que escriba una crítica al mismo en función del impacto de este resumen.
+El libro "Softwar" de Jason P. Lowery está empezando a tener gran repercusión dentro del mundo Bitcoin, y se ve necesario que sus ideas se divulgen al mayor conjunto de población posible para que puedan ser evaluadas y/o criticadas. Sin embargo, cabe advertir que no se trata de un libro, sino de una tesis doctoral del MIT (Instituto de Massachusetts de Tecnología) de 400 páginas. Esto hace que su lectura sea poco digerible para la mayoría de personas, y especialmente para los no angloparlantes. Espero que este resumen y posterior crítica que realizo les sirva a la comunidad hispanohablante de Bitcoin. No creo haber mejorado o empeorado la comprensión de la tesis, pero si he reducido el esfuerzo cognitivo requerido para su lectura, por su menor tamaño y su traducción al español.[^1] Vaya por delante que la tesis de este libro es independiente de mi parecer con respecto a los temas que trata, sólamente me he permitido la crítica en los superíndices 20 y 21, al final de la tesis. Es posible que escriba una crítica al mismo en función del impacto de este resumen.
+
+Este resumen, al igual que la tesis doctoral del autor tiene licencia MIT.
 
 Dev7ba.
 
@@ -82,7 +84,7 @@ La habilidad de "contar historias" se translada directamente en poder abstracto,
 - Se fundan en pricipios ideológicos que procaman que el poder físico es "malo". 
 - Las restricciones lógicas en las leyes (y código) que crean dichas jerarquias no pueden evitar que se ataque sistemáticamente a un sistema de creencias, solo cambian el forma en la que las personas abusan de él: la lógica del sistema de creencias es la *fuente* de su abuso sistemico y no su solución. No es posible codificar lógica para eliminar el riesgo de abuso sistémico. El abuso de las leyes y el software sigue ocurriendo porque la gente sigue cometiendo el error de creer que gente de alto rango en un sistema puede ser restringida con restricciones lógicas.
 
-Para Lowery, la razón por la que tenemos gobiernos menos opresivos hoy que en el pasado, es porque la gente ha gastado tiempo y energía en derrocar a jerarcas (y sus ejércitos) cuando son demasiado explotadores. Es en definitiva, porque la población ha ejercido poder físico frente a los que abusan del poder abstracto. La democracia tampoco se libra de ser fraudulenta para el autor ya que el voto es otra forma de poder abstracto: la gente con alto rango en la jerarquia se pueden hacer indestituibles ganando mayoría de voto. Lo único que hay que hacer es que 51 de los 100 representantes colaboren como una entidad centralizada ¿Les suena?. La descentralización del poder abstracto no detiene el abuso sistemático a la población, solo cambia el modo de como hacerlo. 
+Para Lowery, la razón por la que tenemos gobiernos menos opresivos hoy que en el pasado, es porque la gente ha gastado tiempo y energía en derrocar a jerarcas[^22] (y sus ejércitos) cuando son demasiado explotadores. Es en definitiva, porque la población ha ejercido poder físico frente a los que abusan del poder abstracto. La democracia tampoco se libra de ser fraudulenta para el autor ya que el voto es otra forma de poder abstracto: la gente con alto rango en la jerarquia se pueden hacer indestituibles ganando mayoría de voto. Lo único que hay que hacer es que 51 de los 100 representantes colaboren como una entidad centralizada ¿Les suena?. La descentralización del poder abstracto no detiene el abuso sistemático a la población, solo cambia el modo de como hacerlo. 
 
 Para resolver el dilema del superviviente, las sociedades deben dominar el arte de la proyección de poder para imponer costes prohibitivos a sus atacantes, ya sean internos o externos. Deben adoptar tácticas y tecnologías para incrementar su C<sub>A</sub> y bajar su BCR<sub>A</sub>.
 
@@ -282,6 +284,8 @@ En especial hace estas recomendaciones para futuras políticas acerca de Bitcoin
 
 [^6]: N.d.T. Gatekeeping
 
+[^22]: N.d.T. God-King
+
 [^7]: A partir de ahora PoW y PoS respecivamente.
 
 [^8]: Que quede claro que me dejo muchos en el tintero.
@@ -304,7 +308,7 @@ En especial hace estas recomendaciones para futuras políticas acerca de Bitcoin
 
 [^18]: Desde el momento de la adquisición, claro está, aunque el autor no lo deje claro.
 
-[^19]: Ni que decir tiene que Lowery ha mostrado su complacencia por Twitter con el protocolo de ordinals.
+[^19]: Ni que decir tiene que Lowery ha mostrado su indiferencia con el protocolo de ordinals por Twitter: https://twitter.com/JasonPLowery/status/1656650564090880000
 
 [^20]: En la frase, son incorrectas dos palabras: "Todos" y" Garantizar". Aquí el autor parece ignorar los ataques del 51% censurando transacciones. Véase mas adelante que el autor cree que esto no es un problema mientras los usuarios tengan la libertad de añadir mas cantidad de hash desde otra parte del planeta.
 
