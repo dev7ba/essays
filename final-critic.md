@@ -1,4 +1,4 @@
-#Softwar
+# Softwar
 ---------
 
 El libro "Softwar" de Jason P. Lowery está empezando a tener gran repercusión dentro del mundo Bitcoin, y se ve necesario que sus ideas se divulguen al mayor conjunto de población posible para que puedan ser evaluadas y/o criticadas. Sin embargo, cabe advertir que no se trata de un libro, sino de una tesis doctoral del MIT (Instituto de Massachusetts de Tecnología) de 400 páginas. Esto hace que su lectura sea poco digerible para la mayoría de personas, y especialmente para los no angloparlantes. Espero que este resumen y posterior crítica que realizo les sirva a la comunidad hispanohablante de Bitcoin. No creo haber mejorado o empeorado la comprensión de la tesis, pero si he reducido el esfuerzo cognitivo requerido para su lectura, por su menor tamaño y su traducción al español.[^1] Vaya por delante que la tesis de este libro es independiente de mi parecer con respecto a los temas que trata, solamente me he permitido la crítica en los superíndices 20 y 21, al final de la tesis. Es posible que escriba una crítica al mismo en función del impacto de este resumen.
@@ -7,14 +7,14 @@ Este resumen, al igual que la tesis doctoral del autor, tiene licencia MIT.
 
 Dev7ba.
 
-##Introducción
+## Introducción
 --------------
 
 La intención principal de la tesis es ver a Bitcoin desde un punto de vista no económico. El autor, militar de profesión, nos ofrece otra perspectiva desde lo que él llama la "proyección de poder[^23]", repasando su evolución en la naturaleza desde los organismos unicelulares hasta el Homo sapiens. Analiza a Bitcoin (en especial al sistema Proof of Work) de dos formas: como un tipo de proyección de poder que habilita una posible herramienta para la ciberseguridad, y como una nueva forma de guerra "suave" -Softwar- para "*establecer jerarquías de dominancia intraespecie y determinar el correcto equilibro de poder usando un trabajo físico no letal*" p392, inspirándose para ello en escritos de Henry Ford y Nikola Tesla.[^10]
 
 La tesis se estructura en tres grandes bloques que tratan las técnicas de proyección de poder en la naturaleza, el ser humano y en el ciberespacio. Durante los dos primeros bloques, se asocia terminología propia de Bitcoin, (como Proof-of-Work, descentralización, sin permiso o tercero de confianza) a procesos naturales de lucha entre seres vivos -y en especial entre seres humanos- por la obtención de recursos y/o determinación de los derechos de propiedad. Esto permite al autor mostrar al lector la tecnología de Bitcoin dentro de un marco mucho más amplio del que está acostumbrado (Véase, el económico), y prepararle para el tercer y último bloque, donde expone sus dos principales tesis. 
 
-##Proyección de poder en la naturaleza
+## Proyección de poder en la naturaleza
 --------------------------------------
 
 En este bloque se definen los conceptos de proyección de poder, economía primordial, dilema del superviviente, trampa de prosperidad, heurísticas para la supervivencia, domesticación,etc. En este punto, al lector le puede parecer que está leyendo algo totalmente diferente de una tesis sobre Bitcoin, y no le falta razón, sin embargo, estos conceptos serán enlazados más adelante en las posteriores secciones.
@@ -45,7 +45,7 @@ En el caso del ser humano "*Es posible maximizar la seguridad y la protección s
 
 Nótese la preocupación del autor a lo largo de todo el texto por evitar la palabra violencia o agresión física, y sustituirla por proyección de poder o fuerza física. Esto cobrará especial sentido más adelante, cuando distinga la potencia física cinética (letal), de la eléctrica.
 
-##Proyección de poder en la sociedad humana
+## Proyección de poder en la sociedad humana
 -------------------------------------------
 
 Al contrario que el resto de animales que no pueden percibir símbolos o significado abstracto, el ser humano no puede dejar de hacerlo, y como consecuencia, los humanos a veces sufrimos más por la imaginación que por la realidad. ¿Qué implica esto en la forma en la que proyectamos poder entre nosotros?, que los humanos somos fácilmente manipulables. Para los humanos, el uso de la prueba de trabajo, en un sentido más amplio que en bitcoin, nos sirve para determinar lo que es real de lo que no. Veamos.
@@ -144,7 +144,7 @@ El autor no cree probable que otro tipo tecnología cinética pueda reemplazar a
 
 Finalmente, y para que quede claro el punto de vista del autor, (inspirado por Tesla): "*La clave para ganar futuras guerras parece ser encontrar un terreno de batalla donde se puede luchar y ganar, sin importar cuan poderoso y eficiente se hace el Homo sapiens a la hora de proyectar poder, éste terreno de batalla es claramente el ciberespacio.*", "*Las naciones en el futuro, van a incrementar su dependencia de formas "suaves" de guerra [...]*".p248. "*Es razonable pensar que las naciones continuarán compitiendo entre ellas para establecer una jerarquía sin terceros de confianza, pero aprenderán a hacerlo cada vez más de forma eléctrica en vez de física*". p250/251.
 
-##Proyección de poder en el ciberespacio.
+## Proyección de poder en el ciberespacio.
 -----------------------------------------
 
 En el siglo 21 gran parte de las jerarquías de poder abstractas están codificadas en código, no en leyes. Google, Facebook, Twitter y Amazon tienen más clientes que los gobiernos ciudadanos. Cada persona o institución necesita su permiso tácito para enviar, recibir o guardar información, son, operativamente, una jerarquía abstracta de facto. Ya hemos visto que las jerarquías abstractas se vuelven disfuncionales y tarde o temprano llevan a la guerra. Los desarrolladores de software moderno han tomado el hábito de usar la lógica de sus programas para darse permisos especiales que les dan poder asimétrico sobre el recurso esencial que ha emergido en este siglo: los bits de información. La manera que construimos nuestras redes de ordenadores y diseñamos nuestros sistemas software han causado que la gente al cargo de estos sistemas ganen un inmenso poder abstracto sobre nuestros recursos digitales, por lo que, como consecuencia, cualquiera que use este tipo de software está sujeto a explotación y abuso. Un nuevo tipo de jerarca está tomando forma en el siglo 21. Uno que tiene bajo control nuestros recursos digitales en vez de nuestros recursos agrarios o industriales.
