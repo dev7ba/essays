@@ -339,6 +339,10 @@ PoS es una repetición del peligro de domesticación.
 Crítica 
 -------
 
+La semejanza entre la proyección en vatios de un animal y la red de bitcoin es muy floja, la capacidad de defensa de un animal no se basa en la cantidad de vatios producida, sino en su efecto final.
+
+El poder abstracto es bueno, permite la división del trabajo y desarrollar civilizaciones, creo que está demasiado vilipendiado en el libro.
+
 El autor no tiene muy clara la distinción entre estado y nación. Creo que lo considera lo mismo, pese a que ataca a la democracia como un sistema de poder imaginario.
 
 La guerra puede ser centralizadora o descentralizadora. Lowery no lo explica bien aquí. Es centralizadora cuando la ejerce el estado, Es descentralizadora cuando la ejerce la nación. p205. La descentralización también puede darse mediante vía poder abstracto p.e. propaganda vía imprenta sobre la inquisición española.
