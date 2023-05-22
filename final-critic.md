@@ -4,6 +4,8 @@ El libro "Softwar" de Jason P. Lowery está empezando a tener gran repercusión 
 
 Este resumen, al igual que la tesis doctoral del autor, tiene licencia MIT.
 
+Gracias a Javier A. Maestre @JavierAMaestre por la lectura de este resumen y sus correcciones de traducción.
+
 Dev7ba.
 
 ## Introducción
