@@ -37,4 +37,4 @@ Hay que tener el cuenta que la precisión en el cálculo de las estimaciones nun
 - `estimatesmartfee`: Devuelve una estimación de las fees a pagar en satoshis/VByte.
 
 
-[^1] Podemos tener un nodo con una [mempool mínima](https://github.com/bitcoin/bitcoin/blob/master/doc/reduce-memory.md) (5MB), y sin retransmision de transaciones (pero si de bloques) con la opción `-blocksonly`.
+[^1]: Podemos tener un nodo con una [mempool mínima](https://github.com/bitcoin/bitcoin/blob/master/doc/reduce-memory.md) (5MB), y sin retransmision de transaciones (pero si de bloques) con la opción `-blocksonly`.
