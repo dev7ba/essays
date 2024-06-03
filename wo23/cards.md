@@ -1,8 +1,9 @@
 Discutir soluciones propuestas para hacer que la minería de Bitcoin sea más sostenible, como el uso de energía renovable.
 -------------------------------------------------------------------------------------------------------------------------
 
+- Dudas de si en la industria del automovil eléctrico se hacen estas preguntas.
 - Discurso pobrista donde se reduce la demanda en vez de ampliar la oferta. Basado en culpabilizar al usuario de un bien o servicio que está disfrutando.
-- El problema principal es que la mayoría de las personas no le otorgan valor a bitcoin ¿para que consumir tanto para nada?
+- El problema principal es que la mayoría de las personas no le otorgan valor a Bitcoin ¿para que consumir tanto para nada?
 
 - Diversos estudios con muy mala metodología, variaciones de 300%
 - Estimado de Bitcoin mining council (que no se puede saber bien, variaciones del 300%) de consumo global de Bitcoin es de 348 TWh. 
@@ -86,13 +87,15 @@ Discutir las actualizaciones y cambios previstos en el protocolo de Bitcoin que 
 Discutir cómo podría evolucionar la minería de Bitcoin en el futuro, especialmente a medida que las recompensas por bloque disminuyen.
 --------------------------------------------------------------------------------------------------------------------------------------
 
-- Basado en "A model for Bitcoin's security and the declining block subsidy"
+- Quiebra de Mineros. Liquidación de sus activos (includio Bitcoin). Baja el precio de Bitcoin.
+- - Basado en "A model for Bitcoin's security and the declining block subsidy"
 		https://uncommoncore.co/wp-content/uploads/2019/10/A-model-for-Bitcoins-security-and-the-declining-block-subsidy-v1.06.pdf
+
 - Esperar mas por las confirmaciones.
-- Quiebra de Mineros. Liquidación de sus activos (includio Bitcoin). Pueden reestructurar su deuda.
+- Disminuir el tamaño de bloque.
+- Inflacción perpetua.
 - Mineros no minar tx de menos de X sat/VByte. 
 - O imponer fees por cantidad de valor transmitido.
-- 
 
 
 https://medium.com/@ksimsek19/feather-forking-f9f3d5b5f9aa
