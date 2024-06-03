@@ -1,4 +1,4 @@
-# Todo sobre la mempool. Por dev7ba
+# Todo sobre la mempool. Por dev7ba.
 
 ## ¿Que és la mempool?
 
@@ -10,7 +10,11 @@ Debido a que el código de la mempool no es parte del consenso del protocolo, el
 
 ### La retransmision de transacciones
 
-Aunque parezca mentira, sin una mempool no podemos retransmitir transacciones. Un nodo de bitcoin debe mantener el uso de memoria, procesador y red en unos niveles razonables para consegir ser nuestra fortaleza monetaria soberana. Si no tenemos una memoria de las transacciones que ya hemos retransmitido a nuestos pares, es trivial hacer un ataque de denegacion de servicio a nuestro nodo, ya que no puede discernir si una transacion ya la hemos retransmitido o no. Por ello, un nodo de Bitcoin, sólamente retransmite una transacion a sus pares, si la transacion recibida no estaba en la mempool. Esto es un ejemplo de regla de las muchas que veremos mas adelante. Podemos tener un nodo con una [mempool mínima](https://github.com/bitcoin/bitcoin/blob/master/doc/reduce-memory.md) (5MB), y sin retransmision de transaciones (pero si de bloques) con la opción `-blocksonly`.
+Aunque parezca mentira, sin una mempool no podemos retransmitir transacciones. Un nodo de bitcoin debe mantener el uso de memoria, procesador y red en unos niveles razonables para consegir ser nuestra fortaleza monetaria soberana. Si no tenemos una memoria de las transacciones que ya hemos retransmitido a nuestos pares, es trivial hacer un ataque de denegacion de servicio a nuestro nodo, ya que no puede discernir si una transacion ya la hemos retransmitido o no. Por ello, un nodo de Bitcoin, sólamente retransmite una transacion a sus pares, si la transacion recibida no estaba en la mempool. Esto es un ejemplo de regla de las muchas que veremos mas adelante. [^1] 
+
+#### ¿Pero para qué queremos retransmitir transaciones?
+
+¿No sería mucho mas sencillo mandar las transaciones a los mineros y ya está? Evidentemente no, porque la red de bitcoin cuida del anonimato tanto de los usuarios como de los mineros. Es decir, no hace suposiciones sobre quien es quien dentro de la red ni establece barreras de entrada a la misma. Supongamos que los mineros se anuncian con su dirección ip. ¿Quien sería el responsable del directorio de dichas direcciones ip?. Esto atenta contra la descentralización de la red. Además, si enviamos las transaciones directamente a los mineros se podría censurarles y obligarles a vigilar quien hace qué, atentando contra el anonimato y la libertad de la red. Una red P2P evita esto enviando las transmisiones "al conjunto de la red" sin dato ninguno.
 
 ### Reducción del tiempo de retransmisión de bloques
 
@@ -18,7 +22,9 @@ Los nodos que tienen mempool validan las transaciones según son recibidas antes
 
 ### Estimación de tasas por transación.
 
-El nodo de bitcoin core, por defecto, puede mostrar una [estimación](https://mempoolexplorer.com/feeEstimation) de las tasas que debes pagar en función del tamaño de una transación para que ésta sea minada dentro de un tiempo dado. Esta estimación se basa en un [algoritmo](https://gist.github.com/morcos/d3637f015bc4e607e1fd10d8351e9f41) que conceptualmente es muy sencillo: simplemente se observa el historial de transacciones de la mempool y devuelve la tasa de pago menor de forma que un ratio grande de transaciones con esta tasa haya sido confirmada en el tiempo por el que se le pregunta al algoritmo. Éste algoritmo suele ser muy rígido, y no recoge correctamente los cambios bruscos en el tamaño o histograma de tasas de la mempool. Sin embargo es un algoritmo que no puede ser engañado por los mineros (para subir la estimación de las tasas artificialmente), por que no usa ningún dato de los bloques minados, salvo si una transacción ha sido minada o no y cuando. Hay que tener el cuenta que la precisión en el cálculo de las estimaciones nunca puede ser buena, ya que dependen de dos procesos estocásticos: el tiempo de minado de un bloque, y la cantidad y tamaño de transaciones que llegan a la red P2P en cada momento.
+El nodo de bitcoin core, por defecto, puede mostrar una [estimación](https://mempoolexplorer.com/feeEstimation) de las tasas que debes pagar en función del tamaño de una transación para que ésta sea minada dentro de un tiempo dado. Esta estimación se basa en un [algoritmo](https://gist.github.com/morcos/d3637f015bc4e607e1fd10d8351e9f41) que conceptualmente es muy sencillo: simplemente se observa el historial de transacciones de la mempool y devuelve la tasa de pago menor de forma que un ratio grande de transaciones con esta tasa haya sido confirmada en el tiempo por el que se le pregunta al algoritmo. Éste algoritmo suele ser muy rígido, y no recoge correctamente los cambios bruscos en el tamaño o histograma de tasas de la mempool. Sin embargo es un algoritmo que no puede ser engañado por los mineros (para subir la estimación de las tasas artificialmente), por que no usa ningún dato de los bloques minados, salvo si una transacción ha sido minada o no y cuando. 
+
+Hay que tener el cuenta que la precisión en el cálculo de las estimaciones nunca puede ser buena, ya que dependen de dos procesos estocásticos: el tiempo de minado de un bloque, y la cantidad y tamaño de transaciones que llegan a la red P2P en cada momento.
 
 ## Apéndice
 
@@ -31,4 +37,4 @@ El nodo de bitcoin core, por defecto, puede mostrar una [estimación](https://me
 - `estimatesmartfee`: Devuelve una estimación de las fees a pagar en satoshis/VByte.
 
 
-
+[^1] Podemos tener un nodo con una [mempool mínima](https://github.com/bitcoin/bitcoin/blob/master/doc/reduce-memory.md) (5MB), y sin retransmision de transaciones (pero si de bloques) con la opción `-blocksonly`.
