@@ -64,9 +64,38 @@ Sin embargo, si, como debe de ser, los nodos no actualizados, no incluyen por de
 
 Después de la activación del softfork de Taproot, los pools de minería F2Pool y AntPool no minaron ninguna transación de este tipo durante muchos bloques. Lo que indica que, pese a señalar la activación, no estaban actualizados[^2].
 
-## Consistencia en la política de los nodos.
+## Cambio de tasas de una transacción
 
+### CPFP
 
+mas caro.
+usado por las dos partes emisor y receptor de la tx.
+usado en contratos inteligentes y wallets antiguas.
+
+### RBF
+
+mas barato.
+diferentes RBF a lo largo de la historia y tiempo. FullRBF
+usado solo por el emisor de la tx.
+usado en wallets
+
+## La consistencia en la política de los nodos es importante.
+
+Como ya hemos comentado anteriormente, al contrario que el consenso de Bitcoin -que es igual para todos los nodos- la política de la mempool permite configuracion, y por lo tanto no podemos asumir una homogeneidad de la misma en todos los nodos, salvo quizá, un sesgo hacia la configuración por defecto ofrecida por Bitcoin Core. Además, los desarrolladores han sido históricamente conservadores a la hora de permitir variaciones dentro de la mempool para evitar divergencias demasiado grandes: mientras que se permite por un lado modificar modificar el tamaño de los datos después de una operación OP_RETURN mediante `datacarriersize` y `datacarrier`, o se puede modificar la profundidad máxima de dependencias entre transacciones con `limitancestorsize`; sin embargo, no se puede modificar el tamaño máximo de transacción a retransmitir (400KWU) ni aplicar un conjunto diferente de reglas para el reemplazo de transacciones.
+
+Algunas políticas de mempool están ahí para acomodar diferente potencia de hardware, como por ejemplo `maxmempool` y `mempoolexpiry`, que sirven para limitar el tamaño de la mempool (por defecto 300MB) y para desalojar transacciones que no han sido minadas en un tiempo dado (por defecto 336 horas, dos semanas) respectivamente. Sin embargo, las diferencias en la configuracion de tamaño máximo de la mempool mediante `maxmempool` son las que mas disrupción crean en la red, especialmente a la hora de retransmitir o poder usar CPFP en una transacción.
+
+Aunque ya habaremos de ello mas adelante en mas detalle, el algoritmo de la mempool desaloja las transacciones con menor tasa cuando la mempool se satura. Diferentes tamaños de mempool ocasionan diferentes "tasas de corte". Las transacciones por debajo de este corte no pueden aumentar su tasa mediante CPFP debido a que no existen en esa mempool, ni tampoco podrán retransmitir la transacción "hija" para que otras mempools si puedan hacerlo.
+
+Por otro lado, las mempools pequeñas retransmiten las transacciones que van entrando de nuevo en la parte superior de su "tasa de corte", cosa deseable para difundir transacciones que ahora son susceptibles de entrar en la mempool. Sin embargo las mempools de tamaño grande, que no se saturan, se convierten en "agujeros negros" que no vuelven a retransmitir transacciones con tasa baja debido a que nunca salieron de su mempool, reduciendo su difusión. En el caso mas extremo de problemas de retransmisión tendríamos a un nodo con mempool pequeña conectado a nodos con mempool de tamaño grande, ningún nodo "grande" retransmitiría las transacciones que el nodo "pequeño" ha desalojado.
+
+A todo esto hay que sumar que un nodo con mempool pequeña puede desalojar transacciones que no señalan RBF y aceptar reemplazos de lasl mismas mas adelante porque no se acuerda que la ha tenido una transacción con iguales entradas pero diferentes salidas en el pasado. Una "mempool global" saturada podría hacer que el no señalar RBF sea inútil. Ya que evitar los reemplazos va en contra de los incentivos de los mineros.
+
+La red de retransmisión de transacciones está compuesta por nodos que van y vienen, tienen diferentes configuraciones y deben mantenerse a salvo de ataques de denegación de servicio. Es imposible que se mantenga una "mempool global" y garantizar que cada nodo sepa de cada transacción. Sin embargo la red de Bitcoin intenta que las mempools converjan lo mas posible dando unos valores por defecto en su configuración.
+
+## Datos curiosos -no se donde meterlos-
+
+GetblockTemplate no usaba el 100% del contenido del bloque alineado con los incentivos de los mineros, había una parte que usaba la prioridad mas alta según el múltiplo antiguedad de UTXO*cantidad en satoshis. 
 
 ## Apéndice
 
