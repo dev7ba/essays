@@ -66,6 +66,11 @@ Después de la activación del softfork de Taproot, los pools de minería F2Pool
 
 ## Cambio de tasas de una transacción
 
+
+
+Hay que tener el cuenta que la precisión en el cálculo de las estimaciones nunca puede ser buena, ya que dependen de dos procesos estocásticos: el tiempo de minado de un bloque, y la cantidad y tamaño de transaciones que llegan a la red P2P en cada momento.
+
+
 ### CPFP
 
 mas caro.
@@ -83,7 +88,7 @@ usado en wallets
 
 Aunque pueda parecer insensato, la mempool no tuvo un tamaño máximo en los primeros años del protocolo. El uso de Bitcoin estaba relegado a unos pocos usuarios, y los desarrolladores no veían esto como un problema a atender en breve. Sin embargo en el verano de 2015 la red sufrió un ataque de spam en el que alguien generó grandes cantidades de transacciones con fees muy bajas en muy poco tiempo. Esto provocó los nodos con menos recursos (Rasberry pi y similares) fallaran y dejaran de formar parte de la red. La comunidad respondió recomendando a los usuarios a que configurasen sus nodos para que admitieran en sus nodos sólamente transacciones con la fee alta (mas alta que el mínimo), y en la siguente versión se estableció un tamaño maximo de mempool por defecto (300 Mb). Este tamaño se mide como memoria usada por la máquina (nodo) por cada transacción deserializada, y es independiente para cada sistema operativo.
 
-Cuando se alcanza este tamaño máximo, un nodo desaloja a las transacciones que pagan menos fees para hacer hueco, e incrementa la tasa mínima de aceptación de una transacción en la mempool, comunicándola a sus pares para que no le envíen transacciones por debajo de esta "tasa de corte". Cada nodo hace esto de manera individual, no hay una mempool global, por lo que un nodo con la mempool mas grande o con otra arquitectura subyacente puede desalojar transacciones antes o después.
+Cuando se alcanza este tamaño máximo, un nodo desaloja a las transacciones que pagan menos fees para hacer hueco, e incrementa la tasa mínima de aceptación de una transacción en la mempool, comunicándola a sus pares para que no le envíen transacciones por debajo de esta "tasa de corte". Cada nodo hace esto de manera individual, no hay una mempool global, por lo que un nodo con la mempool mas grande o con otra arquitectura subyacente puede desalojar transacciones antes o después.[^4]
 
 Además, los nodos mantendrán una transación en su mempool si son relevantes para su billetera, incluso si el resto de nodos la han desalojado. El remitente, puede forzar a su nodo a descartar la transacción y enviar otra para actualizarla (con mas fees). O dejar a nodo que continúe retransmitiendo la transación para que sea aceptada por la red una vez la cola de minado se reduzca. La implementación de este comportamiento puede variar entre diferentes implementaciones de billetera.
 
@@ -121,3 +126,4 @@ GetblockTemplate no usaba el 100% del contenido del bloque alineado con los ince
 [^1]: Podemos tener un nodo con una [mempool mínima](https://github.com/bitcoin/bitcoin/blob/master/doc/reduce-memory.md) (5MB), y sin retransmision de transaciones (pero si de bloques) con la opción `-blocksonly`.
 [^2]: [MIT Bitcoin Expo 2022](https://www.youtube.com/watch?v=s_I_Nj5GMgk) a partir de minuto 12:30, Gloria Zhao, investigación de 0xB10C.
 [^3]: Además hay que tener en cuenta el máximo número de firmas posibles dentro de un bloque (maxSigops).
+[^4]: Como referencia al tema [Bitcoin stack exchange](https://bitcoin.stackexchange.com/questions/96068/what-if-the-mempool-exceeds-300-mb) y [Bitcoin devwiki](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/Mempool-and-mining)
