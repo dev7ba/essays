@@ -66,23 +66,35 @@ Después de la activación del softfork de Taproot, los pools de minería F2Pool
 
 ## Cambio de tasas de una transacción
 
+Debido a que como hemos comentado con anterioridad, es muy complicado estimar las tasas de una transacción para que se mine en un tiempo dado. Es probable que, para evitar que en un incremento de tamaño de la mempool nos ocasione un retraso inasumble, tengamos que incentivar a los mineros de alguna forma para que minen nuestra transacción por delente de otras en la cola de minado.
 
-
-Hay que tener el cuenta que la precisión en el cálculo de las estimaciones nunca puede ser buena, ya que dependen de dos procesos estocásticos: el tiempo de minado de un bloque, y la cantidad y tamaño de transaciones que llegan a la red P2P en cada momento.
-
+La red de Bitcoin tiene dos formas de acelerar el minado de transacciones CPFP (Child pays for parent) y RBF (Replace by Fee o BIP-125).
 
 ### CPFP
 
-mas caro.
-usado por las dos partes emisor y receptor de la tx.
-usado en contratos inteligentes y wallets antiguas.
+En esta técnica de aceleración de transacciones un usuario gasta una salida de una transación sin minar en una transación hija con una tasa de minado mas alta, de forma que los minero tengan un incentivo mayor para minar ambas. Su mayor desventaja es que al tener que minar dos transacciones en vez de una, el costo es mas caro que un reemplazo por RBF. Sin embargo tiene la ventaja de que puede ser usada tanto por el remitente como por el receptor de la transación (si ambos tienen alguna salida de transacción disponible para gastar). También es el metodo usado por los contratos inteligentes como la Lighting Network por esta misma causa.
+
+A día de hoy no hay casi ninguna billetera que utilize este sistema para acelerar el minado de transacciones.
 
 ### RBF
 
-mas barato.
-diferentes RBF a lo largo de la historia y tiempo. FullRBF
-usado solo por el emisor de la tx.
-usado en wallets
+Al contrario que en CPFP, en RBF una transacción no confirmada es reemplazada con otra que al menos tiene una de las mismas entradas, y que paga mas tasas de minado. El reemplazo tiene que pagar 1sat/VByte más que la transacción reemplazada y un valor absoluto tambien mayor para evitar ataques de spam. Y, como se puede esperar, este método sólo puede ser usado por el remitente de la misma. Es el principal método usado en las wallets modernas, debido a su sencillez y economía.
+
+#### RBF, First Seen Rule, cero confirmaciones y FullRBF.
+
+Las reglas de RBF han ido cambiando a lo largo del tiempo debido a temas políticos dentro de la comunidad Bitcoin. En un pricipio, cuando la red era una tecnología incipiente, las tasas de minado eran inexistentes[^5] y los bloques no se terminaban de llenar; se trataban a las transacciones en la mempool como válidas y confirmadas. Es decir, entrabas en una tienda y hacías un pago instantáneo sin tener que esperar a que se minase (normalamente 10 minutos después de lanzarla) y te ibas. A esto se le llama Zero Conf (o cero confirmaciones). Esto era "posible" porque los nodos usaban la regla de "la primera transacción vista". Es decir, la mempool rechazaba a una transacción que gastara una entrada de otra transacción que ya se encontrase en su mempool, y de esta forma tampoco la transmitía. Esto evitaba un posible doble gasto en donde una persona maliciosa, enviaba un pago a una persona (o tienda) y luego mandaba otra transación con la misma entrada de transación de vuelta a sí mismo. 
+
+Esto era muy cómodo y conveniente y se usó como reclamo publicitario frente a métodos de pago tracicionales donde te pueden denegar el pago a posteriori, (como por ejemplo una tarjeta bancaria) Sin embargo la regla del First seen rule + cero confirmaciones tiene tres importantes problemas:
+
+- No puedes acelerar las fees: salvo por CPFP, ya que las transacciones no pueden ser reemplazadas en la mempool.
+- Ataques de partición de red: el agente malicioso puede mandar dos transacciones con la misma entrada (una a la tienda y otra de vuelta a si mismo) simultáneamente pero a diferentes nodos, esto provoca una partición en red con respecto a la mempool, en donde un parte de la red tiene la transacción honesta y la otra la deshonesta. Si el nodo de la tienda tiene la honesta pero un minero mina la deshonesta hay un doble gasto.
+- Desincentivo a los mineros: sin importar el código del nodo, a los mineros les interesa minar la transacción que paga mas fees, por lo que podrían dar a conocer su nodo con código alterado para que se manden transaciones deshonestas (o no) sin importar si ya estaban en la mempool.
+
+A esta encrucijada la comunidad le fué dando soluciones temporales hasta llegar a la actualidad[^6]: En primer lugar se creo RBF BIP-125 (RBF Opt In) o RBF opcional. Que permite al remitente de una transacción que se le permita la modificación de la misma cumpliendo las reglas especificadas mas arriba. Sin embargo esto todavía tenía el problema de los ataques de partición de red y los desincentivos de los mineros.
+
+Con el tiempo la política de cero confirmaciones se ha ido evitando por ser insegura y se han desarrollado otros métodos de pago instantáneo de capa dos como Lighting Network.
+
+Finalmente, como la comunidad empieza a ser consciente de que no se puede programar en contra de los incentivos de los mineros, se ha desarrollado FullRBF, que viene a ser una opción de política de la mempool (por defecto hace muy poco tiempo) que hace que las transacciones que pagen mas fees se acepten sin necesitar RBF BIP-125. Con el tiempo, en las wallets no habrá necesidad de indicar si se quiere reemplazar una transacción en un futuro o no[^7].
 
 ## La mempool debe tener un tamaño máximo.
 
@@ -127,3 +139,6 @@ GetblockTemplate no usaba el 100% del contenido del bloque alineado con los ince
 [^2]: [MIT Bitcoin Expo 2022](https://www.youtube.com/watch?v=s_I_Nj5GMgk) a partir de minuto 12:30, Gloria Zhao, investigación de 0xB10C.
 [^3]: Además hay que tener en cuenta el máximo número de firmas posibles dentro de un bloque (maxSigops).
 [^4]: Como referencia al tema [Bitcoin stack exchange](https://bitcoin.stackexchange.com/questions/96068/what-if-the-mempool-exceeds-300-mb) y [Bitcoin devwiki](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/Mempool-and-mining)
+[^5] Las tasas de minado obtenidas por los mineros eran ridículas comparadas con el subsidio de bloque (prácticamente se ponía una fee de mas de 1 sat/VByte de forma caritativa hacia los mineros).   
+[^6] Con los consiguientes dramas entre desarrolladores y entre desarrolladores y empresas del sector que vendieron algo con poca base real.
+[^7] Que alguien le ponga un monumento a [Peter Todd](https://x.com/peterktodd/status/1820562457015779355) por favor.
